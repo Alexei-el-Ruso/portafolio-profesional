@@ -1,0 +1,49 @@
+body{
+	background:	rgb(40, 40, 40);
+	color	:	rgb(255, 255, 255);
+	margin	:	10;
+	padding	:	0px 30px;
+	height	:	100v;
+}
+
+button {
+	margin	:	30px;
+	display	:	inline-block;
+	padding	:	20px 20px;
+	background-color: #ff00ff;
+	text-align:	center;
+	text-decoration:none;
+	border-radius:	10px;
+	transition:	background-color 0.2s;
+}
+
+button:hover {
+	background-color: #00ff00;
+}
+
+.button-danger {
+	background-color: #ff0000;
+}
+
+.button-danger:hover {
+	background-color: #aa0000;
+}
+
+.imagen-redonda {
+	align	:	center;
+	margin	:	30px;
+	witdh	:	200px;
+	height	:	200px;
+	border-radius:	50%;
+	object-fit:	cover;
+	border	:	4px solid #030303;
+}
+
+.contenedor-imagen {
+	margin		:	20px;
+	text-align	:	center;
+	padding		:	20px;
+	border-radius	:	50px;
+	background-color:	#aaaaaa;
+	box-shadow	:	0 10px 15px #000000ff;
+}
