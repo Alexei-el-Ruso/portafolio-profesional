@@ -1,8 +1,19 @@
+@import "functions"; 
+@import "variables";
+
+$primary: $orange; // set the $primary variable
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary
+));
+
+// set changes
+@import "bootstrap";
+
 body {
 	background-color:	#555555;
 	image-rendering	:	pixelated;
-/*	background-image:	url("HSgrey.jpeg");
-	background-size	:	200px;*/
 }
 
 p {
