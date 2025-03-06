@@ -3,7 +3,6 @@
   <head>
 		<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="estilo_base.ccs">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		
 		<title>Portafolio de Alexei Romero</title>
@@ -11,8 +10,10 @@
 
 	<body class="bg-dark">
       
-      <div class="position-relative vh-100 vw-100">
-        <div class="d-flex align-items-center bg-primary h-75 w-75 position-absolute top-50 start-50 translate-middle" style="border-radius:100px">
+    <div id="carrusel" class="carousel slide position-relative vh-100 vw-100">
+      <div class="carousel-inner d-flex align-items-center bg-primary position-absolute top-50 start-50 translate-middle" style="height:90%; width:90%; border-radius:100px;">
+        
+        <div class="carousel-item active">
           <div class="row w-100 g-0 p-5">
             <div class="col-xxl-5 position-relative my-3 py-5">
               <img src="src/foto.jpg" alt="Mi imagen" width="100%" class="position-absolute top-50 start-50 translate-middle" style="border-radius:50%;">
@@ -20,26 +21,14 @@
             <div class="col-xxl-7 mt-5">
               <h1 class="text-center">Cristian Alexei Romero Martinez</h1>
               <h3 class="text-center">Estudiante de Ingeniería en Sistemas Computacionales</h3>
-              <div class="row mx-4 mt-2 gap-2" style="height:20%">
-                <button class="col-md btn btn-secondary p-0">Ver Tareas</button>
-                <button class="col-md btn btn-secondary p-0">Ver Proyectos</button>
-                <button class="col-md btn btn-secondary p-0">Conóceme</button>
-              </div>
-              <div class="row mx-4 mt-2 gap-2" style="height:20%">
-                <button class="col-md btn btn-secondary p-0">Ver Tareas</button>
-                <button class="col-md btn btn-secondary p-0">Ver Proyectos</button>
-                <button class="col-md btn btn-secondary p-0">Conóceme</button>
-              </div>
             </div>
           </div>
         </div>
         
-        <!-- DEBIDO A UN CAMBIO DE IDEA, SE DESCONTINÚA ESTA SECCIÓN.
-        Esta parte incluye todos los recuadros que se pueden acceder desde la NavBar, pero son NavBar
-        <div class="collapse my-5" id="listaEnlaces">
-          <div class="row gap-5 mx-0 justify-content-between align-items-center">
-            
-            <div class="card p-0 border-0" style="width: 400px; height: 450px">
+        <div class="carousel-item">
+          <div class="row gap-xxl-4 gap-md-2 px-5 mx-5 justify-content-center align-items-center">
+          
+            <div class="card p-0 border-0" style="width: 400px; height: 400px">
               <img src="foto.jpg" class="card-img-top m-0" alt="Imagen de Tareas" style="height: 50%; object-fit: cover">
               <div class="card-body m-1">
                 <h2 class="card-title">Tareas</h2>
@@ -49,11 +38,11 @@
                 </p>
               </div>
               <div class="d-grid m-2">
-                <a href="tareas.html" class="btn btn-primary m-2">Entrar</a>
+                <a href="tareas/tareas.html" class="btn btn-primary m-2">Entrar</a>
               </div>
             </div>
-            
-            <div class="card p-0 border-0" style="width: 400px; height: 450px">
+              
+            <div class="card p-0 border-0" style="width: 400px; height: 400px">
               <img src="foto.jpg" class="card-img-top m-0" alt="Imagen de Proyectos" style="height: 50%; object-fit: cover">
               <div class="card-body m-1">
                 <h2 class="card-title">Proyectos</h2>
@@ -66,8 +55,8 @@
                 <a href="#" class="btn btn-primary m-2">Entrar</a>
               </div>
             </div>
-            
-            <div class="card p-0 border-0" style="width: 400px; height: 450px">
+              
+            <div class="card p-0 border-0" style="width: 400px; height: 400px">
               <img src="foto.jpg" class="card-img-top m-0" alt="Imagen de Juegos" style="height: 50%; object-fit: cover">
               <div class="card-body m-1">
                 <h2 class="card-title">Juegos</h2>
@@ -80,8 +69,8 @@
                 <a href="#" class="btn btn-primary m-2">Entrar</a>
               </div>
             </div>
-            
-            <div class="card p-0 border-0" style="width: 400px; height: 450px">
+              
+            <div class="card p-0 border-0" style="width: 400px; height: 400px">
               <img src="foto.jpg" class="card-img-top m-0" alt="Imagen de Recursos" style="height: 50%; object-fit: cover">
               <div class="card-body m-1">
                 <h2 class="card-title">Recursos</h2>
@@ -94,8 +83,8 @@
                 <a href="#" class="btn btn-primary m-2">Entrar</a>
               </div>
             </div>
-            
-            <div class="card p-0 border-0" style="width: 400px; height: 450px">
+              
+            <div class="card p-0 border-0" style="width: 400px; height: 400px">
               <img src="foto.jpg" class="card-img-top m-0" alt="Imagen de Contacto" style="height: 50%; object-fit: cover">
               <div class="card-body m-1">
                 <h2 class="card-title">Contacto</h2>
@@ -109,8 +98,8 @@
                 <a href="#" class="btn btn-primary m-2">Entrar</a>
               </div>
             </div>
-            
-            <div class="card p-0 border-0" style="width: 400px; height: 450px">
+              
+            <div class="card p-0 border-0" style="width: 400px; height: 400px">
               <img src="foto.jpg" class="card-img-top m-0" alt="Imagen de Conóceme" style="height: 50%; object-fit: cover">
               <div class="card-body m-1">
                 <h2 class="card-title">Conóceme</h2>
@@ -123,12 +112,25 @@
               </div>
             </div>
           
-		    </div>
-		  </div>
-		  -->
-		  
-		</div>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" style="width:10%;" data-bs-target="#carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" style="width:10%;" data-bs-target="#carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      <div>
+    <div>
 		
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	</body>
+  </body>
 </html>
+
+        
+    <div class="collapse my-5" id="listaEnlaces">
+	  </div>

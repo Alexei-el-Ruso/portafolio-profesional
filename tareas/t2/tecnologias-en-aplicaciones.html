@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/bootstrap.ccs">
+		<link rel="stylesheet" href="css/bootstrap-theme.ccs">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" href="estilo_base.ccs">
+
+                <title>Investigación sobre Tecnologías en Aplicaciones</title>
+        </head>
+
+        <!- NavBar  -->
+        <body class="bg-primary">
+		      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+			      <div class="container-fluid">
+				      <a class="navbar-brand" href="../../index.html">
+					      <h2>Alexei Romero</h2>
+				      </a>
+				      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"></span>
+				      </button>
+				      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					      <div class="navbar-nav">
+						      <a class="nav-link active" href="../tareas.html"><h4>Tareas</h4></a>
+						      <a class="nav-link" href="../../proyectos"><h4>Proyectos</h4></a>
+						      <a class="nav-link" href="../../juegos"><h4>Juegos</h4></a>
+						      <a class="nav-link" href="../../anexos"><h4>Recursos</h4></a>
+						      <a class="nav-link" href="../../anexos"><h4>Contacto</h4></a>
+						      <a class="nav-link" href="../../anexos"><h4>Conóceme</h4></a>
+					      </div>
+				      </div>
+			      </div>
+		      </nav>
+		
+		<!- Contenido de la Tarea -->
+	  <div class="container my-4 pb-3 bg-dark">
+	  
+	  <!- Cabezera de tarea -->
+	    <div class ="row">
+	      <div class = "col-4 p-0">
+	        <img src = "https://repo.iberopuebla.mx/imagenes/img/bigLogo/logo_fnegro_tblanco.png" class="w-100">
+	      </div>
+	      <div class="col-8 p-2">
+	        <h1 class="text-light text-center">Investigación sobre Tecnologías en Aplicaciones</h1>
+	        <h2 class="text-light text-center">Casos Reddit, Twitch y Librerías Gandhi</h2>
+	        <p class="text-light text-center">6 de marzo del 2025</p>
+	      </div>
+	    </div>
+	  
+	<!- Info  -->
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h4>Reddit</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-2">
+                  <!- Aparentemente, a reddit no le gusta dar link a una imagen para cargarla desde ahí-->
+                  <a href="https://www.reddit.com/" target="_blank" ><img src="reddit-img.png" class="w-100" ></a>
+                  <p class="text-center">Estados Unidos, 2005.</p>
+                </div>
+                <div class="col-10">
+                  <p>¿Quien no conoce Reddit? Es una red social cuya extensa variedad temática la hace especial.</p>
+                  <p>
+                    Ésta fue originalemnte una platafroma web sencilla basada en HTML y CSS para su estructura y JavaScript para las funciones internas,
+                    pero con el paso del tiempo y el aumento de usuarios, más utilidades se tuvieron que ir agregando, formando una aplicación más extensa.
+                    Fue así que llegamos a la actualidad, donde la aplicación utiliza Python, Go, siendo ahora importante para la aplicación,
+                    Ruby y, por su puesto, JavaScript para las funciones añadidas a la aplicación.
+                  </p>
+                  <p>
+                    La aplicación depende de algunas bibliotecas 'básicas' de Python y de JavaScript, así como React de JavaScript,
+                    la cual realmente importante para que el usuario pueda utilizarla.
+                    Además, ha creado sus propios frameworks como baseplate, experiments y synapse dentro de su
+                    <a href="https://github.com/reddit" target="_blank">repositorio.</a>
+                    Incluso, utiliza Kubernetes, un automatizador de escalado y de administración de "aplicaciones en contenedores".
+                  </p>
+                  <p>
+                    Además, actualmente opera con las base de datos PostgreSQL y Cassandra para el control de la información.
+                    Mientras que la primera opera como SQL, la segunda opera como contraparte NoSQL.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h4>Twitch</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-2">
+                  <a href="https://www.twitch.tv/" target="_blank"><img src="twitch-img.png" class="w-100"></a>
+                  <p class="text-center">Estados Unidos, 2007.</p>
+                </div>
+                <div class="col-10">
+                  <p>La plataforma de Streaming de Videojuegos por defecto.</p>
+                  <p>
+                    Originalmente nombrada <a href="https://es.wikipedia.org/wiki/Justin.tv" target="_blank">Justin.tv</a> por los creadores,
+                    ésta ya era relativamente compleja, por lo que no tardarían en incorporar funciones útiles.
+                    Posteriormente, la plataforma migraría al dominio twitch.tv, donde se dió a conocer por las transmisiones de videojuegos.
+                  </p>
+                  <p>
+                    Ésta aplicación web, como muchas otras, requiere de estructura en HTML, CSS y JavaScript.
+                    Además, utiliza Python en muchas de sus funciones, así como Go. Éstos lenguajes sirven para muchas de las funciones 
+                    que los usuarios-desarrolladores han añadido y que no pertenecían originalmente a la aplicación, especialmente en el <i>chat</i>.
+                  </p>
+                  <p>
+                    Para autenticar, Twitch API requeire de OAuth 2.0.
+                    Y sus bases de datos están construidas en PostgreSQL y Redis, ésta última NoSQL.
+                  </p>
+                  <p>
+                    Al igual que muchas otras apliaciones web, ésta utiliza Kubernetes, por su función de escalado
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h4>Librerías Gandhi</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-2">
+                  <a href="https://www.gandhi.com.mx/" target="_blank"><img src="https://gandhi.vtexassets.com/assets/vtex.file-manager-graphql/images/6aca1d37-150b-49b3-8217-f447c19a1d5e___760948322ab47e7031f8a5ba19240e94.png" class="w-100"></a>
+                  <p class="text-center">México, 2000</p>
+                </div>
+                <div class="col-10">
+                  <p>Una de las librerías más grandes de México y Latinoamérica.</p>
+                  <p>
+                    La librería, originalmente ubicada en el Distrito Federal, hoy Ciudad de México. Ésta fué un espacio cultural y artístico
+                    por décadas, sin embargo, a la llegada de los 90, se volvía cada vez más necesario entrar en el mundo digital,
+                    y en el 2000, ésta introdujo su sitio web.
+                  </p>
+                  <p>
+                    Por lo cual, ésta ha contratado distintas empresas para desarrollar la aplicación que le permitiera realizar las ventas de
+                    libros en línea, una tarea compleja, pues además requerir la págian web, requería de los servicios de compra, físico y en línea,
+                    bases de datos con los libros, envío de libros digitales, y demás utilidades.
+                  </p>
+                  <p>
+                    Es por eso que, además de HTML y CSS para su estructura, emplea JavaScript en buena cantidad e sus páginas web.
+                  </p>
+                  <p>
+                    Sin embargo, encontramos que sus funciones están desarrollada por <a href="https://vtex.com/es-mx/" target="_blank">VTEX<a>
+                    y <a href="https://www.vinneren.com.mx/">Vinneren</a>,
+                    empresas de comercio en la nube y tecnología, que se encargan de la mayoría de lo que sucede detrás de la aplicación. Éstas
+                    trabajaron a través de productos SaaS con ETL Styrk para la aplicación web de Gandhi.
+                    Las bases de datos, particularmente importantes para la libería, fueron creadas a partir de GraphQL. Por último, utiliza React y Node.js.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+	  </div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<link>
+	</body>
+	
+</html>
