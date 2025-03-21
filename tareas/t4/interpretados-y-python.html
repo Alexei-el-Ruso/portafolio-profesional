@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/bootstrap.ccs">
+		<link rel="stylesheet" href="css/bootstrap-theme.ccs">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" href="estilo_base.ccs">
+		
+		<title>Lenguajes Interpretados y Python</title>
+	</head>
+
+        <!-- NavBar  -->
+        <body class="bg-dark">
+		      <nav class="navbar navbar-expand-lg bg-white sticky-top">
+			      <div class="container-fluid">
+				      <a class="navbar-brand" href="../../index.html">
+					      <h2>Alexei Romero</h2>
+				      </a>
+				      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"></span>
+				      </button>
+				      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					      <div class="navbar-nav">
+						      <a class="nav-link active" href="../tareas.html"><h4>Tareas</h4></a>
+						      <a class="nav-link" href="../../proyectos/proyectos.html"><h4>Proyectos</h4></a>
+						      <a class="nav-link" href="../../juegos/juegos.html"><h4>Juegos</h4></a>
+						      <a class="nav-link" href="../../recursos/recursos.html"><h4>Recursos</h4></a>
+						      <a class="nav-link" href="../../anexos/contacto.html"><h4>Contacto</h4></a>
+						      <a class="nav-link" href="../../anexos/conoceme.html"><h4>Conóceme</h4></a>
+					      </div>
+				      </div>
+			      </div>
+		      </nav>
+		
+    
+    <!-- Contenido -->
+    
+	  <!-- Cabezera de tarea -->
+	  <div class="container my-4 pb-3 bg-dark">
+	    <div class ="row">
+	      <div class = "col-xl-4">
+	        <img src = "https://repo.iberopuebla.mx/imagenes/img/bigLogo/logo_fnegro_tblanco.png" style="width:100%;">
+	      </div>
+	      <div class="col-xl-8">
+	        <h1 class="text-light text-center">Lenguajes Interpretados y Python</h1>
+	        <h3 class="text-light text-center">Introducción a Ingeniería en Sistemas Computacionales</h3>
+	        <p class="text-light text-center">20 de marzo del 2025</p>
+	      </div>
+	    </div>
+	    
+	    
+      <div class="container bg-light p-5"style="text-align: justify;">
+        
+        <h2 class="text-center"> Lenguajes de Programación Interpretados</h2>
+        <p>
+          Un lenguaje interpretado es un lenguaje de programación que depende de un intérprete para procesar las ordenes durante la ejecución,
+          en contraposición de los lenguajes compilados que procesa las ordenes previamente (compilado) para posteriormente ejecutarlo.
+        </p>
+        <div class="row">
+          <div class="col-3">
+            <a href="lisp.pdf" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Lisp_logo.svg" class="img-fluid" style="width: 100%; object-fit: cover;" alt="Lisp Logo"></a>
+          </div>
+          <div class="col-9">
+            <h4> Un poco de historia </h4>
+            <p>
+              En la actualidad, Python es el lenguaje interpretado más conocido. Sin embargo, a lo largo de la
+              <a href="https://domingogallardo.github.io/apuntes-lpp/teoria/tema01-historia-lenguajes-programacion/tema01-historia-lenguajes-programacion.html" target="_blank">historia</a> existió una gran variedad de éstos, por ya más de 50 años, pues el primero se remonta a 1958, con Lisp.
+              Éste lenguaje, por su parte, toma muchas características estructurales de FORTRAN, un lenguaje compilado.
+            </p>
+            <p>
+              Lisp es un lenguaje que ha dejado descendientes, como <a href="https://lisp-lang.org/"target="_blank">Common Lisp</a>,
+              así como marcar el desarorollo de muchos lenguajes de programación interpretados, incluyendo a Python, JavaScript y Lua.
+            </p>
+            <p>
+              Una nota interesante es que inlcuso fue el primer lenguaje cuyo compilador (si, compilador para un lenguaje interpretado)
+              está escrito en el mismo lenguaje que compilará.
+            </p>
+          </div>
+          <h4> Ventajas y Desventajas </h4>
+          <p>
+            La ventaja de los lenguajes interpretados es su corto ciclo de ejecución - modificación, que facilita el proceso de desarrollo en conjunto,
+            lo que beneficia a los fragmentos cortos de código y consultas rápidas. Así, al convertir código en proceso computacional,
+            se puede obtener una respuesta rápida, casi instantánea, del resultado del proceso.
+            Al mismo tiempo, se vuelve ineficiente conforme se requiere la ejecución repetida del código, puesto que cada iteración requiere reinterpretarlo.
+            Además, el intérprete requiere más energía computacional, lo que resulta en recursos desperdiciados al no estar siendo utilizado activamente.
+          </p>
+          <p>
+            En resumen, éstos son especialemnte óptimos para programas que requieren pequeños cambios cada ejecución, como sucede durante el proceso de debugging.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-1 p-0">
+            <h2 class="text-end">Pyt</h2>  
+          </div>
+          <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"class="p-0"style="width:3%;">
+          <div class="col-1 p-0">
+            <h2 class="text-start">hon</h2>
+          </div>
+        </div>
+        <p>
+          Acorde con la Documentación de Python:
+        </p>
+        <p style="padding:0 5%">
+          Python es un lenguaje <a href="https://docs.python.org/es/3.13/glossary.html#term-interpreted"target="_blank">interpretado</a>,
+          a diferencia de uno compilado, a pesar de que la distinción puede ser difusa debido al compilador a bytecode.
+          Esto significa que los archivos fuente pueden ser corridos directamente, sin crear explícitamente un ejecutable que es corrido luego.
+          Los lenguajes interpretados típicamente tienen ciclos de desarrollo y depuración más cortos que los compilados,
+          sin embargo sus programas suelen correr más lentamente.
+        </p>
+        <p>
+          Es un lenguaje de programación de alto nivel, lo que significa que es más cercano a nuestro lenguaje humano que el
+          lenguaje máquina (binario), permitiendo una comprensión relativamente fácil de lo que se programa.
+        </p>
+        <p>
+          Por otro lado, su paradigma es la Programación Orientada a Objetos, gracias a su capacidad de uso de clases y el polimorfismo,
+          que le da mayor versatilidad y lo vuelve dinámico.
+        </p>
+        <p>
+          Actualmente corre la versión 3, también conocida como python3, 
+        </p>
+      
+        <h4 class="text-center">Referencias</h4>
+        https://www.ionos.com/digitalguide/websites/web-development/compilers-vs-interpreters/
+        https://domingogallardo.github.io/apuntes-lpp/teoria/tema01-historia-lenguajes-programacion/tema01-historia-lenguajes-programacion.html
+        https://es.wikipedia.org/wiki/Lisp
+      
+      </div>
+    </div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<link>
+	</body>
+	
+</html>
