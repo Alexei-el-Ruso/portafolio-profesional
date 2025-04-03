@@ -1,0 +1,60 @@
+:root {
+    --bgclr: #333;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bgclr);
+}
+
+.cover {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.srt {
+    align-self: flex-start;
+}
+.mdl {
+    align-self: center;
+}
+.end {
+    align-self: flex-end;
+}
+.lft {
+    justify-content: left;
+}
+.cnr {
+    justify-content: center;
+}
+.rgt {
+    justify-content: right;
+}
+
+.indxbtn-l {
+    color: white;
+    background-image:linear-gradient(to right, #666, var(--bgclr));
+    font-size:30px;
+    font-weight: bold;
+    border: 0;
+}
+.indxbtn-l:hover {
+    background-image:linear-gradient(to right, #888, var(--bgclr));
+    border: 0;
+}
+.indxbtn-r {
+    color: white;
+    background-image:linear-gradient(to left, #666, var(--bgclr));
+    font-size:30px;
+    font-weight: bold;
+    border: 0;
+}
+.indxbtn-r:hover {
+    background-image:linear-gradient(to left, #888, var(--bgclr));
+    border: 0;
+}
