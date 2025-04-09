@@ -114,9 +114,11 @@ def payment(total_a_pagar):
 		try: valuacion = float(input("Ingrese el valor del billete o moneda ingresada:	"))
 		except ValueError: print("Moneda o billete no reconocido.")
 		else:
-			total_a_pagar -= valuacion
-			if total_a_pagar <= 0:
-				gate = False
+		    if valuacion < total_a_pagar: print("Cantidad insuficiente.")
+		    else:
+    			total_a_pagar -= valuacion
+    			if total_a_pagar <= 0:
+    				gate = False
 	print("Retornando:") #Si, pude haber hecho una función, pero el tiempo me comía.
 	billetes = [500,200,100,50,20,10,5,2,1,0.5]
 	for c in billetes:
